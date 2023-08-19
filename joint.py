@@ -1,7 +1,7 @@
 import os
 import cv2
 import numpy as np
-from PIL import Image
+
 
 
 def rename_files(folder_path):
@@ -65,7 +65,7 @@ def merge_images(folder_path, output_path):
 
 
 if __name__ == '__main__':
-    folder_path = 'D:\\data\\07\\1\\HIK-LR-2D'
+    folder_path = 'your_data_path'
     output_path = folder_path+"\\output"
     file_name = 'merged_image.png'
     merge_images(folder_path, output_path)
